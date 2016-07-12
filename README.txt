@@ -1,0 +1,12 @@
+
+1. in cmake gui, add follow entry.
+
+CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS=TRUE
+
+BUILD_SHARED_LIBS=TRUE
+
+
+2. add ws2_32.lib to CMAKE_CXX_STANDARD_LIBRARIES and CMAKE_C_STANDARD_LIBRARIES
+
+
+3. configure and generate
