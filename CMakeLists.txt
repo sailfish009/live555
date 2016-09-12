@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 3.6)
 project(live)
 
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
+set(BUILD_SHARED_LIBS ON)
+set(CMAKE_CXX_STANDARD 11)
 
 set(SOURCE_FILES
     include/AC3AudioFileServerMediaSubsession.hh
